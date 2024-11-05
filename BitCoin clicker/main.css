@@ -1,0 +1,475 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(/img/MainBackGround.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:15px ;
+}
+
+.OneBlock{
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+}
+
+.BitCount{
+    width: 400px;
+    height: 80px;
+    background-color:rgba(255, 255, 255, 0.633);
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Kanit", sans-serif;
+}
+
+.BitCountImg{
+    width: 100px;
+    height: 90px;
+}
+
+
+
+.FingerClick{
+    padding-left: 0px;
+    width: 300px;
+    height: 80px;
+    background-color:rgba(255, 255, 255, 0.633);
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Kanit", sans-serif; 
+}
+
+.AutoClick{
+    width: 300px;
+    height: 80px;
+    background-color:rgba(255, 255, 255, 0.633);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 40px;
+    font-family: "Kanit", sans-serif;
+}
+
+.BitBtn_Task{
+    display: flex;
+    justify-content: start;
+    padding-left: 5px;
+    gap: 430px;
+    padding-right: 20px;
+}
+
+.BitBtn{
+    width: 500px;
+    height: 500px;
+    background-image: url(/img/Bitcoin.png);
+    background-size: cover;
+}
+
+.BitBtn:hover{
+    transition: 0.2s;
+    transform: scale(1.0);
+    width: 500px;
+    height: 500px;
+    background-image: url(/img/Bitcoin.png);
+    background-size: cover;
+}
+
+.BitBtn:active{
+    transition: 0.2s;
+    transform: scale(0.8);
+    width: 500px;
+    height: 500px;
+    background-image: url(/img/Bitcoin.png);
+    background-size: cover;
+}
+
+.BtnTask{
+    width: 110px;
+    height: 120px;
+    background-color: #ffffff00;
+    border: none;
+    background-image: url(/img/Task.png);
+    background-repeat: no-repeat;
+}
+
+.BtnTask:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    width: 110px;
+    height: 120px;
+    background-color: #ffffff00;
+    border: none;
+    background-image: url(/img/Task.png);
+    background-repeat: no-repeat;
+}
+
+
+.Click{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: none;
+}
+
+.Imuch{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: solid white 5px;
+    background-image: url(/img/Imuch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.PanelNav{
+position: relative;
+top: 5px;
+align-self: end;
+display: flex;
+gap: 50px;
+}
+
+.BuyBar2{
+    display: none;
+    width: auto;
+    height: 385px;
+    background-color: black;
+    border: solid white 5px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+   justify-content: center;
+   align-items: center;
+   grid-template-columns: 500px 500px 500px;
+   gap: 10px;
+}
+
+.BuyBar{
+    display: grid;
+    width: auto;
+    height: 365px;
+    background-color: black;
+    border: solid white 5px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+   justify-content: center;
+   align-items: center;
+   grid-template-columns: 400px 400px 400px 400px;
+}
+
+.b{
+    cursor: pointer ;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    color: #FFC81F;
+    font-size: 40px;
+    align-items: center;
+    background-color: white;
+    border: solid orange 3px;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-family: "Kanit", sans-serif;
+}
+
+.G{
+    cursor: pointer ;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    color: #FFC81F;
+    font-size: 40px;
+    align-items: center;
+    background-color: white;
+    border: solid rgb(255, 238, 0) 3px;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-family: "Kanit", sans-serif;
+}
+.Goff{
+    pointer-events:none ;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    color: #363636;
+    font-size: 40px;
+    align-items: center;
+    background-color: rgb(175, 175, 175);
+    border: solid rgb(61, 61, 61) 3px;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-family: "Kanit", sans-serif;
+}
+
+.G:hover{
+    cursor: pointer ;
+    transform: scale(1.12);
+    transition: 0.3s;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    color: #FFC81F;
+    font-size: 40px;
+    align-items: center;
+    background-color: white;
+    border: solid rgb(255, 238, 0) 3px;
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 0, 0.737) 0px 0px 10px;
+    animation-name: card2;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+}
+
+.b-1{
+    cursor: pointer ;
+    padding-left:10px ;
+    padding-right:0px ;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    color: #00ff2a;
+    font-size: 40px;
+    align-items: center;
+    background-color: white;
+    border: solid rgb(0, 255, 21) 3px;
+    border-radius: 5px;
+    font-family: "Kanit", sans-serif;
+    animation-name:buy;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.b-1:hover{
+    cursor: pointer ;
+    transform: scale(1.12);
+    transition: 0.3s;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    color: #00ff2a;
+    font-size: 40px;
+    align-items: center;
+    background-color: white;
+    border: solid rgb(0, 255, 21) 3px;
+    border-radius: 5px;
+    box-shadow: rgba(38, 255, 0, 0.484) 0px 0px 10px; 
+    font-family: "Kanit", sans-serif;
+    animation-name:buy;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.b:hover{
+    cursor: pointer ;
+    transform: scale(1.12);
+    transition: 0.3s;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    color: #FFC81F;
+    font-size: 40px;
+    align-items: center;
+    background-color: white;
+    border: solid orange 3px;
+    border-radius: 5px;
+    box-shadow: rgba(255, 166, 0, 0.737) 0px 0px 10px;animation-name: card;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes card{
+    0%{
+        box-shadow: rgba(255, 166, 0, 0.737) 0px 0px 10px; 
+    }
+    50%{
+        box-shadow: rgb(255, 166, 0) 0px 0px 30px;
+    }
+   
+    100%{
+        box-shadow: rgba(255, 166, 0, 0.737) 0px 0px 10px;
+    }
+}
+
+
+
+@keyframes card2{
+    0%{
+        box-shadow: rgb(255, 255, 0) 0px 0px 10px; 
+    }
+    50%{
+        box-shadow: rgb(255, 251, 0) 0px 0px 30px;
+    }
+   
+    100%{
+        box-shadow: rgb(255, 251, 0) 0px 0px 10px;
+    }
+}
+
+
+
+@keyframes buy{
+    0%{
+        box-shadow: rgba(38, 255, 0, 0.484) 0px 0px 10px; 
+    }
+    50%{
+        box-shadow: rgb(34, 255, 0) 0px 0px 30px;
+    }
+   
+    100%{
+        box-shadow: rgba(38, 255, 0, 0.484) 0px 0px 10px;
+    }
+}
+
+dialog{
+    background-color: rgba(255, 0, 0, 0);
+    max-width: 1920px;
+    max-height: 1080px;
+    width: auto;
+    height: auto;
+}
+
+
+.DaskTask{
+    padding-top: 40px;
+    padding-left: 17px;
+    width: 600px;
+    height: 900px;
+   background-image: url(/img/DaskTask.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   
+}
+
+
+#EXIT{
+    background-color: rgba(102, 51, 153, 0);
+    border: none;
+    width: 70px;
+    height: 70px;
+    background-image: url(/img/EXIT.png);
+    background-repeat: no-repeat;
+}
+
+#EXIT:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: rgba(102, 51, 153, 0);
+    border: none;
+    width: 70px;
+    height: 70px;
+    background-image: url(/img/EXIT.png);
+    background-repeat: no-repeat;
+}
+
+
+.TxtBlock{
+    padding-left: 25px;
+    display: grid;
+    font-size: 40px;
+    grid-template-rows: 80px 70px 70px 70px 72px 70px 70px 72px 72px;
+    grid-template-columns:550px ;
+    align-items: start;
+    font-family: "Kanit", sans-serif;
+}
+
+.Task{
+    display: flex;
+    justify-content: space-between;
+}
+
+.TxtTask{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.CompTask{
+    width: 80px;
+    height: 80px;
+    background-image: url(/img/Off.png);
+    background-repeat: no-repeat;
+}
+
+#End{
+    display: none;
+    justify-content: center;
+    padding-top: 200px;
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.Winner{
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 300px 100px;
+}
+
+#WinExit{
+width: 300px;
+height: 65px;
+font-size: 40px;
+font-family: "Kanit", sans-serif;
+background-color: rgb(255, 255, 255);
+color: #000000;
+border: solid #FFC81F 5px;
+border-radius: 20px;
+}
+
+#WinExit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    width: 300px;
+    height: 65px;
+    font-size: 40px;
+    font-family: "Kanit", sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: solid #FFC81F 5px;
+    border-radius: 20px;
+    }
+
+.qqq{
+    font-size: 40px;
+    font-family: "Kanit", sans-serif;
+}
